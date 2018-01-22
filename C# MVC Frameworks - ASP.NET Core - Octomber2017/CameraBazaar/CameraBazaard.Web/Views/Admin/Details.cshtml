@@ -1,0 +1,34 @@
+﻿@model AdminUserDetailsModel
+@{
+    ViewData["Title"] = $"Details for user {Model.Username}";
+}
+<h2>@ViewData["Title"]</h2>
+<div>
+    <h3>
+        Username : @Model.Username
+    </h3>
+    <h3>
+        Email : @Model.Email
+    </h3>
+    <h3>
+        Roles:
+    </h3>
+    <p>
+        <ol class="list-group list-inline">
+            @foreach (var role in Model.Roles)
+            {
+                <li class="list-group-item list-group-item-info"><h4><strong>@role</strong></h4></li>
+            }
+        </ol>
+    </p>
+</div>
+<div>
+    <a href="/admin/users" class="btn btn-default">Back</a>
+    <a href="/admin/changerole/@Model.Id" class="btn btn-primary">Change Role</a>
+    <a href="/admin/addrole/@Model.Id" class="btn btn-info">Add Role</a>
+    @if (Model.Username != "Admin")
+    {
+        <a href="/admin/removerole/@Model.Id" class="btn btn-warning">Remove Roles</a>
+    }
+</div>
+

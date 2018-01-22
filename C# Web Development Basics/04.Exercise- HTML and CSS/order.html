@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Order a beer</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/form.css">
+</head>
+
+<body>
+    <nav>
+        <div class="topnav">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a>
+            <a href="index.html">Home</a>
+            <a href="all-beers.html">See All Beers</a>
+            <a href="order.html" class="active">Order a Beer</a>
+            <a href="register.html" class="right">Register</a>
+            <a href="login.html" class="right">Log in</a>
+        </div>
+    </nav>
+
+    <main>
+        <center>
+            <h1>Order a Beer</h1>
+            <br>
+            <form action="#">
+                <label>Brand</label>
+                <select>
+                    <option value="0" selected disabled>Select brand</option>
+                    <option value="1">Corona 330ml</option>
+                    <option value="2">Stela 330ml</option>
+                    <option value="3">Carlsberg 330ml</option>
+                    <option value="4">Heineken 330ml</option>
+                </select>
+                <label>Quantity</label>
+                <input type="number" min="1" max="15" placeholder="Enter amount of beers (1-15)">
+                <label>Destination</label>
+                <select>
+                        <option value="0" selected disabled>Select a destination</option>
+                        <option value="1">Sofia</option>
+                        <option value="2">Plovdiv</option>
+                        <option value="3">Varna</option>
+                        <option value="4">Burgas</option>
+                    </select>
+                <label>Enter your birthday</label>
+                <input type="date" placeholder="mm/dd/yyyy">
+                <label>Got an opinion, comment, recommendation? Share it with us!</label>
+                <input type="text" placeholder="Share your opinion with us!">
+                <input type="submit" value="Order">
+            </form>
+        </center>
+    </main>
+
+    <footer>
+        <hr>
+        <p><i>&copy; 2017 &ndash; SoftUni Beers</i></p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+﻿@model CarDealer.App.Models.Cars.CarsListingModel
+
+@{
+    ViewData["Title"] = "All Cars";
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <br />
+    <a href="/cars/create" class="btn btn-primary btn-lg">Create Part</a>
+    <hr />
+}
+
+@{
+    var previousPageDisabled = Model.CurrentPage == 1 ? "disabled" : string.Empty;
+    var nextPageDisabled = Model.CurrentPage == Model.TotalPages ? "disabled" : string.Empty;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<nav aria-label="...">
+    <ul class="pagination pagination-lg">
+        <li class="page-item @previousPageDisabled">
+            <a class="page-link" href="/cars/parts?page=@Model.PreviousPage" tabindex="-1">Previous</a>
+        </li>
+        @for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.CurrentPage ? "active" : string.Empty)"><a class="page-link" href="/cars/parts?page=@i">@i</a></li>
+        }
+        <li class="page-item @nextPageDisabled">
+            <a class="page-link" href="/cars/parts?page=@Model.NextPage">Next</a>
+        </li>
+    </ul>
+</nav>
+
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Make</th>
+            <th>Model</th>
+            <th>Travelled Distance</th>
+            <th>Parts</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var car in Model.Cars)
+        {
+            <tr>
+                <td>@car.Make</td>
+                <td>@car.Model</td>
+                <td>@(car.TravelledDistance / 1000) KM</td>
+                <td>
+                    <ul>
+                        @foreach (var part in car.Parts)
+                        {
+                            <li>
+                                @part.Name -  &#36; @part.Price.ToString("F2");
+                            </li>
+                        }
+                    </ul>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>

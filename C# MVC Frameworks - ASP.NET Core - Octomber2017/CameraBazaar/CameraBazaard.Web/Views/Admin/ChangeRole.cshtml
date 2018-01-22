@@ -1,0 +1,10 @@
+﻿@model SetRoleViewModel
+@{
+    ViewData["Title"] = "Change Role";
+}
+<h2>@ViewData["Title"]</h2>
+<div class="row">
+    <div class="col-md-4">
+       @Html.Partial("_SetRoleForm", Model)
+    </div>
+</div>

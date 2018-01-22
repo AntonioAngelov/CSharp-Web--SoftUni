@@ -1,0 +1,77 @@
+﻿@model CameraFormModel
+@{
+    ViewData["Title"] = "Delete Camera";
+}
+<h2>@ViewData["Title"]</h2>
+
+<form method="post">
+    <div class="row">
+        <div class="col-md-4">
+            <hr />
+            <div class="form-group">
+                <label asp-for="Make"></label>
+                <select asp-for="Make" asp-items="@Html.GetEnumSelectList<CameraMake>()" class="form-control" disabled></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Model"></label>
+                <input asp-for="Model" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price"></label>
+                <input asp-for="Price" class="form-control" disabled />
+            </div>
+            <div class="form-group">
+                <label asp-for="Quantity"></label>
+                <input asp-for="Quantity" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinShutterSpeed"></label>
+                <input asp-for="MinShutterSpeed" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxShutterSpeed"></label>
+                <input asp-for="MaxShutterSpeed" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinISO"></label>
+                <select asp-for="MinISO" asp-items="@Html.GetEnumSelectList<MinISO>()" class="form-control" disabled>
+                    <option>Please select one</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxISO"></label>
+                <input asp-for="MaxISO" min="200" max="409600" step="100" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label asp-for="IsFullFrame"></label>
+                @Html.RadioButtonFor(r => r.IsFullFrame, true) Yes
+                @Html.RadioButtonFor(r => r.IsFullFrame, false) No
+            </div>
+            <div class="form-group">
+                <label asp-for="VideoResolution"></label>
+                <input asp-for="VideoResolution" class="form-control" disabled/>
+            </div>
+            <div class="form-group">
+                <label asp-for="LightMeterings"></label>
+                <br />
+                <input type="checkbox" name="LightMeterings" value="@((int)LightMetering.Spot)" disabled/> Spot
+                <br />
+                <input type="checkbox" name="LightMeterings" value="@((int)LightMetering.CenterWeighted)" disabled/> Center-Weighted
+                <br />
+                <input type="checkbox" name="LightMeterings" value="@((int)LightMetering.Evaluative)" disabled/> Evaluative
+
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description"></label>
+                <textarea asp-for="Description" class="form-control" disabled>
+        </textarea>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageUrl"></label>
+                <input asp-for="ImageUrl" class="form-control" disabled/>
+            </div>
+            <button type="submit" class="btn btn-danger">Delete</button>
+        </div>
+    </div>
+</form>

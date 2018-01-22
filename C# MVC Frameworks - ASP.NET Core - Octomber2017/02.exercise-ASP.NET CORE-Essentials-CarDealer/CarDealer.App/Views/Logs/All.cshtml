@@ -1,0 +1,84 @@
+﻿@model CarDealer.App.Models.Logs.AllLogsListingModel
+
+@{
+    ViewData["Title"] = "All Logs";
+}
+
+@{
+    var previousPageDisabled = Model.CurrentPage == 1 ? "disabled" : string.Empty;
+    var nextPageDisabled = Model.CurrentPage == Model.TotalPages ? "disabled" : string.Empty;
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <form class="form-inline my-2 my-lg-0 col-md-10" method="get">
+        <input class="form-control mr-sm-2" name="search" type="text" placeholder="Search">
+        <button class="btn btn-primary" type="submit">Search</button>
+    </form>
+
+    <form action="/logs/clear" method="post" class="col-md-2">
+        <input type="submit" class="btn btn-warning" value="Clear All Logs"/>
+    </form>
+</div>
+
+@if (Model.Logs.Any())
+{
+    <hr/>
+
+    <nav aria-label="...">
+        <ul class="pagination pagination-lg">
+            <li class="page-item @previousPageDisabled">
+                <a class="page-link" href="/logs/all?page=@Model.PreviousPage@Model.Query" tabindex="-1">Previous</a>
+            </li>
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : string.Empty)"><a class="page-link" href="/logs/all?page=@i@Model.Query">@i</a></li>
+            }
+            <li class="page-item @nextPageDisabled">
+                <a class="page-link" href="/logs/all?page=@Model.NextPage@Model.Query">Next</a>
+            </li>
+        </ul>
+    </nav>
+
+    <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+            <th>
+                User
+            </th>
+            <th>
+                Operation
+            </th>
+            <th>
+                Modified Table
+            </th>
+            <th>
+                Time
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var log in Model.Logs) {
+            <tr>
+                <td>
+                    @log.User
+                </td>
+                <td>
+                    @log.Operation.ToString()
+                </td>
+                <td>
+                    @log.ModifiedTable
+                </td>
+                <td>
+                    @log.ModificationDate
+                </td>
+            </tr>}
+        </tbody>
+    </table>
+
+}
+else
+{
+    <h1>No Logs!</h1>
+}

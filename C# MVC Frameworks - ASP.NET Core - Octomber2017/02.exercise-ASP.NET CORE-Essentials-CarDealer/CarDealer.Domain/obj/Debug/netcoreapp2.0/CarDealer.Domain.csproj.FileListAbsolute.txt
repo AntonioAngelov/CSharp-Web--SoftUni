@@ -1,0 +1,9 @@
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Domain\bin\Debug\netcoreapp2.0\CarDealer.Domain.deps.json
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Domain\bin\Debug\netcoreapp2.0\CarDealer.Domain.dll
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Domain\bin\Debug\netcoreapp2.0\CarDealer.Domain.pdb
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Domain\obj\Debug\netcoreapp2.0\CarDealer.Domain.csprojResolveAssemblyReference.cache
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Domain\obj\Debug\netcoreapp2.0\CarDealer.Domain.csproj.CoreCompileInputs.cache
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Domain\obj\Debug\netcoreapp2.0\CarDealer.Domain.AssemblyInfoInputs.cache
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Domain\obj\Debug\netcoreapp2.0\CarDealer.Domain.AssemblyInfo.cs
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Domain\obj\Debug\netcoreapp2.0\CarDealer.Domain.dll
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Domain\obj\Debug\netcoreapp2.0\CarDealer.Domain.pdb

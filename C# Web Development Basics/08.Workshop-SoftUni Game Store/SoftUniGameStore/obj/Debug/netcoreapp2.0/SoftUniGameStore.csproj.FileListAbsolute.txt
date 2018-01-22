@@ -1,0 +1,11 @@
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\08.Workshop-SoftUni Game Store\SoftUniGameStore\bin\Debug\netcoreapp2.0\SoftUniGameStore.deps.json
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\08.Workshop-SoftUni Game Store\SoftUniGameStore\bin\Debug\netcoreapp2.0\SoftUniGameStore.runtimeconfig.json
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\08.Workshop-SoftUni Game Store\SoftUniGameStore\bin\Debug\netcoreapp2.0\SoftUniGameStore.runtimeconfig.dev.json
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\08.Workshop-SoftUni Game Store\SoftUniGameStore\bin\Debug\netcoreapp2.0\SoftUniGameStore.dll
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\08.Workshop-SoftUni Game Store\SoftUniGameStore\bin\Debug\netcoreapp2.0\SoftUniGameStore.pdb
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\08.Workshop-SoftUni Game Store\SoftUniGameStore\obj\Debug\netcoreapp2.0\SoftUniGameStore.csprojResolveAssemblyReference.cache
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\08.Workshop-SoftUni Game Store\SoftUniGameStore\obj\Debug\netcoreapp2.0\SoftUniGameStore.csproj.CoreCompileInputs.cache
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\08.Workshop-SoftUni Game Store\SoftUniGameStore\obj\Debug\netcoreapp2.0\SoftUniGameStore.AssemblyInfoInputs.cache
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\08.Workshop-SoftUni Game Store\SoftUniGameStore\obj\Debug\netcoreapp2.0\SoftUniGameStore.AssemblyInfo.cs
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\08.Workshop-SoftUni Game Store\SoftUniGameStore\obj\Debug\netcoreapp2.0\SoftUniGameStore.dll
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\08.Workshop-SoftUni Game Store\SoftUniGameStore\obj\Debug\netcoreapp2.0\SoftUniGameStore.pdb

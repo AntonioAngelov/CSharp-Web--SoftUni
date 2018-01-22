@@ -1,0 +1,24 @@
+﻿@model IEnumerable<CameraListingModel>
+@{
+    ViewData["Title"] = "All Cameras";
+}
+<h2>@ViewData["Title"]</h2>
+
+<div class="container">
+    <div class="row">
+        @foreach (var camera in Model)
+        {
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid" width="200"  src="@camera.ImageUrl" alt="@camera.Model">
+                    <div class="card-blcok">
+                        <h4 class="card-title">@camera.Make @camera.Model</h4>
+                        <h3 class="card-text">$@camera.Price</h3>
+                        <p class="card-text"><strong>@(camera.Quantity == 0 ? "OUT OF STOCK" : "IN STOCK")</strong></p>
+                        <a href="/cameras/details/@camera.Id" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

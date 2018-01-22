@@ -1,0 +1,11 @@
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Data\bin\Debug\netcoreapp2.0\CarDealer.Data.deps.json
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Data\bin\Debug\netcoreapp2.0\CarDealer.Data.dll
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Data\bin\Debug\netcoreapp2.0\CarDealer.Data.pdb
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Data\bin\Debug\netcoreapp2.0\CarDealer.Domain.dll
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Data\bin\Debug\netcoreapp2.0\CarDealer.Domain.pdb
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Data\obj\Debug\netcoreapp2.0\CarDealer.Data.csprojResolveAssemblyReference.cache
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Data\obj\Debug\netcoreapp2.0\CarDealer.Data.csproj.CoreCompileInputs.cache
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Data\obj\Debug\netcoreapp2.0\CarDealer.Data.AssemblyInfoInputs.cache
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Data\obj\Debug\netcoreapp2.0\CarDealer.Data.AssemblyInfo.cs
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Data\obj\Debug\netcoreapp2.0\CarDealer.Data.dll
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\02.exercise-ASP.NET CORE-Essentials-CarDealer\CarDealer.Data\obj\Debug\netcoreapp2.0\CarDealer.Data.pdb

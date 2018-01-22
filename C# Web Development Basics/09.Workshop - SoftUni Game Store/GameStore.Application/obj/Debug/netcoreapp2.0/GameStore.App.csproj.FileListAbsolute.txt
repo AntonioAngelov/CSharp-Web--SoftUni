@@ -1,0 +1,15 @@
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\obj\Debug\netcoreapp2.0\GameStore.App.csprojResolveAssemblyReference.cache
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\obj\Debug\netcoreapp2.0\GameStore.App.csproj.CoreCompileInputs.cache
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\obj\Debug\netcoreapp2.0\GameStore.App.AssemblyInfoInputs.cache
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\obj\Debug\netcoreapp2.0\GameStore.App.AssemblyInfo.cs
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\bin\Debug\netcoreapp2.0\GameStore.App.deps.json
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\bin\Debug\netcoreapp2.0\GameStore.App.runtimeconfig.json
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\bin\Debug\netcoreapp2.0\GameStore.App.runtimeconfig.dev.json
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\bin\Debug\netcoreapp2.0\GameStore.App.dll
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\bin\Debug\netcoreapp2.0\SimpleMvc.Framework.dll
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\bin\Debug\netcoreapp2.0\WebServer.dll
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\bin\Debug\netcoreapp2.0\SimpleMvc.Framework.pdb
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\bin\Debug\netcoreapp2.0\WebServer.pdb
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\bin\Debug\netcoreapp2.0\GameStore.App.pdb
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\obj\Debug\netcoreapp2.0\GameStore.App.dll
+E:\Uchene\SoftUni\C# Web\C# Web Development Basics\09.Workshop - SoftUni Game Store\GameStore.Application\obj\Debug\netcoreapp2.0\GameStore.App.pdb

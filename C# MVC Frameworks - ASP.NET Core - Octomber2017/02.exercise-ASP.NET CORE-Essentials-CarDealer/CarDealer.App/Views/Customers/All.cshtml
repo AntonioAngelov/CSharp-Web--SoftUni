@@ -1,0 +1,33 @@
+﻿@model OrderedCustomersModel
+
+@{
+    ViewData["Title"] = $"AllByFilter customers ordered {Model.OrderDirection.ToString()}";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table table-bordered table-hover">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Birth Date</th>
+        <th>Is Young Driver</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var customer in Model.Customers)
+    {
+        <tr>
+            <td>@customer.Name</td>
+            <td>@customer.BirthDate</td>
+            <td>@(customer.IsYoungDriver ? "Yes" : "No")</td>
+            <td>
+                <a href="/customers/edit/@customer.Id" class="btn btn-warning">Edit</a>
+                <a href="/customers/@customer.Id" class="btn btn-info">Details</a>
+            </td>
+        </tr>
+    }
+
+    </tbody>
+</table>

@@ -1,0 +1,28 @@
+﻿<main>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col col-md-6">
+                <div class="text-center">
+                    <h1 class="display-3">Submit Solution</h1>
+                </div>
+                <hr />
+
+                <form method="post">
+                    <div class="form-group row">
+                        <label class="col-form-label" for="name">Code</label>
+                        <textarea name="Code" rows="20" id="name" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="contests">Contest</label>
+                        <select name="ContestId" class="form-control" id="contests">
+                            {{{contestsOptions}}}
+                        </select>
+                    </div>
+
+                    <input type="submit" class="btn btn-outline-secondary btn-lg btn-block" value="Create" />
+                </form>
+                <br />
+            </div>
+        </div>
+    </div>
+</main>

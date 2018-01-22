@@ -1,0 +1,13 @@
+﻿@model SetRoleViewModel
+
+<form method="post">
+
+    <div class="form-group">
+        <label>Roles</label>
+        <select name="role" asp-items="Model.Roles" class="form-control">
+            <option>Please Select One</option>
+        </select>
+    </div>
+    <a href="/admin/details/@Model.UserId" class="btn btn-primary">Cancel</a>
+    <button type="submit" class="btn btn-success">Save Role</button>
+</form>

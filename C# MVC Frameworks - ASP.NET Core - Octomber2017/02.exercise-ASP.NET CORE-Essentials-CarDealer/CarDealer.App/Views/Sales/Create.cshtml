@@ -1,0 +1,39 @@
+﻿@model CarDealer.App.Models.Sales.SaleCreateModel
+
+@{
+    ViewData["Title"] = "Add Sale";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="SeLectedCustomer" class="control-label"></label>
+                <select asp-for="SeLectedCustomer" asp-items="Model.Customers" class="form-control"></select>
+                <span asp-validation-for="SeLectedCustomer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SeLectedCar" class="control-label"></label>
+                <select asp-for="SeLectedCar" asp-items="Model.Cars" class="form-control"></select>
+                <span asp-validation-for="SeLectedCar" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Discount" class="control-label"></label>
+                <input asp-for="Discount" min="0" class="form-control" />
+                <span asp-validation-for="Discount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="All">Back to List</a>
+</div>
+

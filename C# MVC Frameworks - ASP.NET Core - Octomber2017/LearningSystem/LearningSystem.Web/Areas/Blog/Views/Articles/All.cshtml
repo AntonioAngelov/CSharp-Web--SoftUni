@@ -1,0 +1,26 @@
+﻿@model IEnumerable<ArticleListingModel>
+@{
+    ViewData["Title"] = "All Articles";
+}
+<h2>@ViewData["Title"]</h2>
+@if (User.IsInRole(WebConstants.BlogAuthor))
+{
+    <a href="/blog/articles/create" class="btn btn-primary">Create Article</a>
+}
+<hr />
+<div class="container">
+    @foreach (var article in Model)
+    {
+        <div class="panel panel-primary">
+            <div class="panel-heading">@article.Title</div>
+            <div class="panel-body">@article.Content</div>
+            <div class="panel-footer">
+                <em>
+                    Pubilished on : @article.PublishedDate.ToShortDateString()
+                    <span class="pull-right">Author: @article.Author</span>
+                </em>
+            </div>
+        </div>
+
+    }
+</div>

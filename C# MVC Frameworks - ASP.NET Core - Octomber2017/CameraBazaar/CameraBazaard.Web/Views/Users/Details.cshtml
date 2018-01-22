@@ -1,0 +1,47 @@
+﻿@model UserDetailsModel
+
+@{
+    var sameUser = Model.Username == User.Identity.Name;
+}
+
+@{
+    ViewData["Title"] = $"Username : {Model.Username}";
+}
+<h2>
+    @ViewData["Title"]
+    @if (sameUser)
+    {
+        <a href="/manage/index" class="btn btn-primary">Edit Profile</a>
+    }
+</h2>
+
+
+
+<div class="container">
+    <div class="row">
+        <h3>Email: @Model.Email</h3>
+        <h3>Phone: @Model.Phone</h3>
+        <h3>Cameras: @Model.Cameras.Count(c => c.Quantity > 0) in stock / @Model.Cameras.Count(c => c.Quantity == 0) out of stock</h3>
+        <hr />
+        <h2>Cameras:</h2>
+        @foreach (var camera in Model.Cameras)
+        {
+            <div class="col-sm-3">
+                <div class="card">
+                    <img class="card-img-top img-fluid" width="200" src="@camera.ImageUrl" alt="@camera.Model">
+                    <div class="card-blcok">
+                        <h4 class="card-title">@camera.Make @camera.Model</h4>
+                        <h3 class="card-text">$@camera.Price</h3>
+                        <p class="card-text"><strong>@(camera.Quantity == 0 ? "OUT OF STOCK" : "IN STOCK")</strong></p>
+                        <a href="/cameras/details/@camera.Id" class="btn btn-primary">Details</a>
+                        @if (sameUser)
+                        {
+                            <a href="/cameras/edit/@camera.Id" class="btn btn-warning">Edit</a>
+                            <a href="/cameras/delete/@camera.Id" class="btn btn-danger">Delete</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

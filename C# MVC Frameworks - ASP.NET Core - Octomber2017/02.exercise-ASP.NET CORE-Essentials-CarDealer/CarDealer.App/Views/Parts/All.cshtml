@@ -1,0 +1,60 @@
+﻿@model CarDealer.App.Models.Parts.AllPartsListingModel
+
+@{
+    ViewData["Title"] = "All Parts";
+}
+
+@{
+    var previousPageDisabled = Model.CurrentPage == 1 ? "disabled" : string.Empty;
+    var nextPageDisabled = Model.CurrentPage == Model.TotalPages ? "disabled" : string.Empty;
+}
+
+<br/>
+<a href="/parts/create" class="btn btn-primary btn-lg">Create Part</a>
+<hr/>
+
+<h1>@ViewData["Title"]</h1>
+
+<nav aria-label="...">
+    <ul class="pagination pagination-lg">
+        <li class="page-item @previousPageDisabled">
+            <a class="page-link" href="/parts/all?page=@Model.PreviousPage" tabindex="-1">Previous</a>
+        </li>
+        @for (int i = 1; i <= Model.TotalPages; i++)
+        {
+            <li class="page-item @(i == Model.CurrentPage ? "active" : string.Empty)"><a class="page-link" href="/parts/all?page=@i">@i</a></li>
+        }
+        <li class="page-item @nextPageDisabled">
+            <a class="page-link" href="/parts/all?page=@Model.NextPage">Next</a>
+        </li>
+    </ul>
+</nav>
+
+<table class="table table-bordered table-hover">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Supplier</th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var part in Model.Parts)
+    {
+        <tr>
+            <td>@part.Name</td>
+            <td>@part.Price.ToString("F2")</td>
+            <td>@part.Quantity</td>
+            <td>@part.Supplier</td>
+            <td>
+                <a href="/parts/remove/@part.Id" class="btn btn-danger">Delete</a>
+                <a href="/parts/edit/@part.Id" class="btn btn-warning">Edit</a>
+            </td>
+        </tr>
+    }
+
+    </tbody>
+</table>
+

@@ -1,0 +1,38 @@
+﻿@model CarDealer.App.Models.Sales.DiscountedSalesModel
+
+@{
+    if (!Model.Discount.Equals(0))
+    {
+        ViewData["Title"] = $"Sales With {Model.Discount}% Discount";
+    }
+    else
+    {
+        ViewData["Title"] = $"AllByFilter Sales With Discount";
+    }
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table table-bordered table-hover">
+    <thead>
+    <tr>
+        <th>Price</th>
+        <th>Discounted Price</th>
+        <th>Discount</th>
+        <td></td>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var sale in Model.Sales)
+    {
+        <tr>
+            <td>@sale.Price.ToString("F2")</td>
+            <td>@sale.DiscountedPrice.ToString("F2")</td>
+            <td>@(sale.Discount * 100 + (sale.IsYoungDriver ? 5 : 0)) &#37;</td>
+            <td>
+                <a href="/sales/@sale.Id">Details</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

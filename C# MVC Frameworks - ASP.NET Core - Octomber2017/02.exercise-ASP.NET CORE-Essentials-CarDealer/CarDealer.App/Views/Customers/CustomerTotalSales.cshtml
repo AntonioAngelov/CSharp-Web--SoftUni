@@ -1,0 +1,13 @@
+﻿@model CarDealer.Services.Models.Customers.CustomerWithSalesModel
+
+@{
+    ViewData["Title"] = $"{Model.Name}'s total sales";
+}
+
+<h1>@ViewData["Title"] </h1>
+
+<ul>
+    <li>Customer Name: @Model.Name</li>
+    <li>Bought Cars Count: @Model.TotalBoughtCars</li>
+    <li>Total Spent Money: &#36;@Model.TotalMoneySpent.ToString("F2")</li>
+</ul>

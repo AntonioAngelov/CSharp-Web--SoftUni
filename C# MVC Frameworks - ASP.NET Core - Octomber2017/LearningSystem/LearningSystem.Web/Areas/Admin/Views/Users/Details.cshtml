@@ -1,0 +1,21 @@
+﻿@model AdminUserDetailsModel
+@{
+    ViewData["Title"] = $"Details for user {Model.Username}";
+}
+<h2>@ViewData["Title"]</h2>
+<div class="container">
+    <div class="row col-md-4">
+        <div class="panel panel-primary">
+            <div class="panel-heading"><strong>Username : @Model.Username </strong></div>
+            <div class="panel-body"><strong>Name: @Model.Name </strong></div>
+            <div class="panel-body"><strong>Email: @Model.Email </strong></div>
+            <div class="panel-body"><strong>Birth Date: @Model.BirthDate.ToShortDateString() </strong></div>
+            <div class="panel-footer">
+                <strong>Roles:</strong> @(string.Join(", ", Model.Roles))
+            </div>
+        </div>
+        <a href="/admin/users/all" class="btn btn-info">Back</a>
+        <a href="/admin/users/addrole/@Model.Id" class="btn btn-primary">Add Role</a>
+        <a href="/admin/users/clearroles/@Model.Id" class="btn btn-danger">Remove Roles</a>
+    </div>
+</div>

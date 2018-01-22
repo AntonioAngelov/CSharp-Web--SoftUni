@@ -1,0 +1,23 @@
+﻿@model CarDealer.Services.Models.Sales.SaleWithDetailsModel
+
+@{
+    ViewData["Title"] = $"Sale Details";
+}
+
+<h1>@ViewData["Title"] </h1>
+
+<h3>Customer Name: @Model.CustomerName</h3>
+
+<h3>Car Details:</h3>
+<ul>
+    <li>Model: @Model.CarDetails.Model</li>
+    <li>Make: @Model.CarDetails.Make</li>
+    <li>Travelled Distance: @(Model.CarDetails.TravelledDistance / 1000) KM</li>
+</ul>
+
+<h3>Prices</h3>
+<ul>
+    <li>Price: @Model.Price.ToString("F2")</li>
+    <li>Discounted Price: @Model.DiscountedPrice.ToString("F2")</li>
+    <li>Discount: @(Model.Discount * 100 + (Model.IsYoungDriver ? 5 : 0)) &#37;</li>
+</ul>

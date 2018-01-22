@@ -1,0 +1,22 @@
+C:\Users\anton\source\repos\01.Exercises- ASP.NET Core Introduction\FDMC\bin\Debug\netcoreapp2.0\FDMC.deps.json
+C:\Users\anton\source\repos\01.Exercises- ASP.NET Core Introduction\FDMC\bin\Debug\netcoreapp2.0\FDMC.runtimeconfig.json
+C:\Users\anton\source\repos\01.Exercises- ASP.NET Core Introduction\FDMC\bin\Debug\netcoreapp2.0\FDMC.runtimeconfig.dev.json
+C:\Users\anton\source\repos\01.Exercises- ASP.NET Core Introduction\FDMC\bin\Debug\netcoreapp2.0\FDMC.dll
+C:\Users\anton\source\repos\01.Exercises- ASP.NET Core Introduction\FDMC\obj\Debug\netcoreapp2.0\FDMC.csprojResolveAssemblyReference.cache
+C:\Users\anton\source\repos\01.Exercises- ASP.NET Core Introduction\FDMC\obj\Debug\netcoreapp2.0\FDMC.csproj.CoreCompileInputs.cache
+C:\Users\anton\source\repos\01.Exercises- ASP.NET Core Introduction\FDMC\obj\Debug\netcoreapp2.0\FDMC.AssemblyInfoInputs.cache
+C:\Users\anton\source\repos\01.Exercises- ASP.NET Core Introduction\FDMC\obj\Debug\netcoreapp2.0\FDMC.AssemblyInfo.cs
+C:\Users\anton\source\repos\01.Exercises- ASP.NET Core Introduction\FDMC\bin\Debug\netcoreapp2.0\FDMC.pdb
+C:\Users\anton\source\repos\01.Exercises- ASP.NET Core Introduction\FDMC\obj\Debug\netcoreapp2.0\FDMC.dll
+C:\Users\anton\source\repos\01.Exercises- ASP.NET Core Introduction\FDMC\obj\Debug\netcoreapp2.0\FDMC.pdb
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\01.Exercises- ASP.NET Core Introduction\FDMC\bin\Debug\netcoreapp2.0\FDMC.deps.json
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\01.Exercises- ASP.NET Core Introduction\FDMC\bin\Debug\netcoreapp2.0\FDMC.runtimeconfig.json
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\01.Exercises- ASP.NET Core Introduction\FDMC\bin\Debug\netcoreapp2.0\FDMC.runtimeconfig.dev.json
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\01.Exercises- ASP.NET Core Introduction\FDMC\bin\Debug\netcoreapp2.0\FDMC.dll
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\01.Exercises- ASP.NET Core Introduction\FDMC\bin\Debug\netcoreapp2.0\FDMC.pdb
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\01.Exercises- ASP.NET Core Introduction\FDMC\obj\Debug\netcoreapp2.0\FDMC.csprojResolveAssemblyReference.cache
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\01.Exercises- ASP.NET Core Introduction\FDMC\obj\Debug\netcoreapp2.0\FDMC.csproj.CoreCompileInputs.cache
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\01.Exercises- ASP.NET Core Introduction\FDMC\obj\Debug\netcoreapp2.0\FDMC.AssemblyInfoInputs.cache
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\01.Exercises- ASP.NET Core Introduction\FDMC\obj\Debug\netcoreapp2.0\FDMC.AssemblyInfo.cs
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\01.Exercises- ASP.NET Core Introduction\FDMC\obj\Debug\netcoreapp2.0\FDMC.dll
+E:\Uchene\SoftUni\C# Web\C# MVC Frameworks - ASP.NET Core - Octomber2017\01.Exercises- ASP.NET Core Introduction\FDMC\obj\Debug\netcoreapp2.0\FDMC.pdb

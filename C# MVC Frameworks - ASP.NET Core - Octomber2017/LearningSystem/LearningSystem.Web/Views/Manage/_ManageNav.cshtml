@@ -1,0 +1,12 @@
+﻿@using LearningSystem.Web.Views.Manage
+@inject SignInManager<User> SignInManager
+@{
+    var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
+}
+
+<ul class="nav nav-pills nav-stacked">
+    <li class="@ManageNavPages.IndexNavClass(ViewContext)"><a asp-action="Index">Profile</a></li>
+    <li class="@ManageNavPages.ChangePasswordNavClass(ViewContext)"><a asp-action="ChangePassword">Password</a></li>
+    <li class="@ManageNavPages.CoursesNavClass(ViewContext)"><a asp-action="Courses">My Courses</a></li>
+</ul>
+

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<CourseListingModel>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="row">
+        <h2>All Courses</h2>
+    </div>
+</div>
+<div class="panel-group">
+    @foreach (var course in Model)
+    {
+        <div class="panel panel-primary">
+            <div class="panel-heading">@course.Name</div>
+            <div class="panel-body">@course.Description</div>
+            <div class="panel-footer">
+                <strong>
+                    Start Date: @course.StartDate.ToShortDateString()
+                    <span class="pull-right">End Date: @course.EndDate.ToShortDateString()</span>
+                </strong>
+                <hr />
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <p>
+                        <a href="/courses/details/@course.Id" class="btn btn-info">More Info</a>
+                    </p>
+                }
+            </div>
+        </div>
+    }
+</div>

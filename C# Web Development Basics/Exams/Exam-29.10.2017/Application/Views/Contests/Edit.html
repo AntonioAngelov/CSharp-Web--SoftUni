@@ -1,0 +1,22 @@
+﻿<main>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col col-md-6">
+                <div class="text-center">
+                    <h1 class="display-3">{{{name}}}</h1>
+                </div>
+                <hr />
+
+                <form method="post">
+                    <div class="form-group row">
+                        <label class="col-form-label" for="name">Contest Name</label>
+                        <input name="Name" id="name" class="form-control" value="{{{name}}}" />
+                    </div>
+                    <input type="submit" class="btn btn btn-outline-warning" value="Edit" />
+                    <a href="/contests/all" class="btn btn-outline-secondary">Back</a>
+                </form>
+                <br />
+            </div>
+        </div>
+    </div>
+</main>

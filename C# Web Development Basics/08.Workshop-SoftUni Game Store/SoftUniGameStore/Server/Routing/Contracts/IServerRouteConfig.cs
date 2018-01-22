@@ -1,0 +1,12 @@
+﻿namespace SoftUniGameStore.Server.Routing.Contracts
+{
+    using System.Collections.Generic;
+    using Enums;
+
+    public interface IServerRouteConfig
+    {
+        Dictionary<HttpRequestMethod, Dictionary<string, IRoutingContext>> Routes { get; }
+
+        ICollection<string> AnonymousPaths { get; }
+    }
+}
